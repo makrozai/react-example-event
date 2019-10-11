@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 /** Import of components */
-import Header from './components/header'
+import Header from './components/HeaderTemplate'
 import BaseForm from './components/BaseForm'
 import EventList from './components/EventList'
 
