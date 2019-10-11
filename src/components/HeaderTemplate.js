@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class Header extends Component {
   state = {  }
@@ -7,8 +7,8 @@ class Header extends Component {
       <header className="uk-margin" uk-margin="true">
         <h1 className="uk-text-center">Eventos</h1>
       </header>
-     );
+     )
   }
 }
  
-export default Header;
+export default Header
