@@ -7,7 +7,7 @@ import EventCard from './EventCard'
 class EventList extends Component {
   render() { 
     return ( 
-      <div className="uk-child-width-1-4@m" uk-grid="true">
+      <div className="uk-child-width-1-3@m" uk-grid="true">
         { Object.keys(this.props.events).map(key => (
           <EventCard
             key={key}
@@ -15,7 +15,7 @@ class EventList extends Component {
           />
         )) }
       </div>
-     );
+     )
   }
 }
 
@@ -23,4 +23,4 @@ EventList.propTypes = {
   events: PropTypes.array.isRequired
 }
  
-export default EventList;
+export default EventList

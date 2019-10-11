@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
 class BaseForm extends Component {
   state = {  }
@@ -81,5 +82,10 @@ class BaseForm extends Component {
      )
   }
 }
- 
-export default BaseForm;
+
+BaseForm.propTypes = {
+  getEvents: PropTypes.func.isRequired,
+  categories: PropTypes.array.isRequired,
+}
+
+export default BaseForm

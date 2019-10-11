@@ -1,7 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class EventCard extends Component {
   render() {
+    /**
+      * This function is render for aplication or component
+      * @returns {Object} this component
+    */
+
     // destructuring object of prop.data
     let {name, logo, description, url} = this.props.data
     // validate data name of item event
@@ -29,7 +34,7 @@ class EventCard extends Component {
           </div>
         </div>
       </div>
-     );
+     )
   }
 }
  
